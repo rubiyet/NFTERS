@@ -4,7 +4,7 @@ import { STATS_LIST } from "@/constants/heroStarsList";
 
 const Hero = () => {
   return (
-    <div className="mt-[57px] mb-[122px] w-full">
+    <div className="mt-[57px] mb-[122px] w-8/12 mx-auto">
       <div className="flex flex-col-reverse md:flex-row md:justify-between">
         <div className="flex flex-col justify-end space-y-[30px]">
           <div className="space-y-[41px] max-w-xl w-full">

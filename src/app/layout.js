@@ -13,10 +13,8 @@ const RootLayout = ({ children }) => {
     <html lang="en">
       <body>
         <Header />
-        <div className="w-8/12 mx-auto">
-          <main className="">{children}</main>
-          <Footer />
-        </div>
+        {children}
+        <Footer />
       </body>
     </html>
   );
