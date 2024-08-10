@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Integral CF';
+  src: url('/fonts/integralcf-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('/fonts/integralcf-medium.otf') format('opentype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('/fonts/integralcf-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/dmsans-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/dmsans-medium.ttf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/dmsans-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
