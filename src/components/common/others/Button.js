@@ -5,6 +5,7 @@ const Button = ({ children, variant }) => {
     primary: "text-white bg-violet-800 text-sm font-bold hover:shadow-md hover:scale-105",
     secondary: "text-violet-800 border-2 border-violet-800 text-sm font-bold",
     tertiary: "text-white bg-blue-700 border-2 border-white text-xs font-normal",
+    placeabid: "w-36 text-white bg-violet-800 text-sm font-bold",
   };
 
   return (

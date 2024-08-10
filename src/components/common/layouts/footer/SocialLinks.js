@@ -1,17 +1,14 @@
 import { SOCIAL_LINKS } from "@/constants/socialLinksList";
+import Image from "next/image";
+import Link from "next/link";
 
 const SocialLinks = () => {
   return (
     <div className="flex gap-4">
       {SOCIAL_LINKS.map((icon, index) => (
-        <a key={index} href="#" aria-label={icon.alt}>
-          <img
-            loading="lazy"
-            src={`/icons/${icon.src}`}
-            className="w-8 h-8 object-contain"
-            alt={icon.alt}
-          />
-        </a>
+        <Link key={index} href="#" aria-label={icon?.alt}>
+          <Image src={`/icons/${icon.src}`} alt={icon.alt} width={32} height={32} />
+        </Link>
       ))}
     </div>
   );

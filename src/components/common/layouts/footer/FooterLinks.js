@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FooterLinks = ({ title, links }) => {
   return (
     <div className="col-span-1 md:col-span-2 space-y-4 font-dmsans">
@@ -5,7 +7,7 @@ const FooterLinks = ({ title, links }) => {
       <ul className="text-sm text-[#3D3D3D] font-normal space-y-2">
         {links.map((link, index) => (
           <li key={index}>
-            <a href="#" className="hover:text-[#3D00B7]">{link}</a>
+            <Link href="#" className="hover:text-[#3D00B7]">{link}</Link>
           </li>
         ))}
       </ul>
