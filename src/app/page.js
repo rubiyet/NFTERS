@@ -1,7 +1,8 @@
 import Features from "@/components/features";
-import Hero from "@/components/Hero";
+import Hero from "@/components/hero";
 import Collection from "@/components/collections";
 import FeaturedCollections from "@/components/featuredCollections";
+import CreateAndSell from "@/components/createAndSell";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Features />
       <Collection />
       <FeaturedCollections />
+      <CreateAndSell />
     </>
   );
 };

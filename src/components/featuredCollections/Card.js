@@ -6,7 +6,7 @@ const Card = ({ mainImage, sideImages, title, author, totalItems }) => {
       <div className="flex space-x-4">
         <Image
           src={mainImage}
-          className="w-full rounded-xl flex flex-col"
+          className="w-full rounded-xl flex flex-col transform transition-all duration-300 ease-in-out hover:scale-105"
           alt={title}
           width={300}
           height={306}
@@ -17,7 +17,7 @@ const Card = ({ mainImage, sideImages, title, author, totalItems }) => {
             <Image
               key={index}
               src={image}
-              className="object-contain rounded-xl w-[104px] h-"
+              className="object-contain rounded-xl w-[104px] transform transition-all duration-300 ease-in-out hover:scale-105"
               alt=""
               width={104}
               height={85}
@@ -43,7 +43,7 @@ const Card = ({ mainImage, sideImages, title, author, totalItems }) => {
           </div>
         </div>
         <div className="flex items-end">
-          <div className="border border-[#2639ED] text-[#2639ED] flex items-end p-2 rounded-3xl text-[11px] font-dmsans font-bold">
+          <div className="border border-[#2639ED] text-[#2639ED] flex items-end p-2 rounded-3xl text-[11px] font-dmsans font-bold transform transition-all duration-300 ease-in-out hover:scale-105">
             Total {totalItems} Items
           </div>
         </div>
