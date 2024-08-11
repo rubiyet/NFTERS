@@ -1,4 +1,4 @@
-import Card from '@/components/featuress/Card';
+import Card from '@/components/features/Card';
 import { FEATURES_LIST } from '@/constants/features';
 
 const Features = () => {
