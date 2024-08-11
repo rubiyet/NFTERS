@@ -1,4 +1,4 @@
-import Item from "@/components/discoverMore/Item";
+import Item from "@/components/discoverMore/Card";
 
 const Items = () => {
   const Lists = [
