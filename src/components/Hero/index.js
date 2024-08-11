@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="flex flex-col space-y-16 lg:space-y-0 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-end space-y-[30px]">
           <div className="space-y-[41px] max-w-xl w-full">
-            <h1 className="text-4xl font-bold tracking-wide font-integral">
+            <h1 className="text-4xl font-bold tracking-wide font-integral transform transition-all duration-300 ease-in-out hover:scale-105">
               Discover and Collect Digital Art NFTs
             </h1>
             <p className="text-xl leading-8 text-[#565656] font-dmsans max-w-md">
@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
           <div className="flex space-x-8 text-center md:text-left">
             {STATS_LIST.map((item) => (
-              <div key={item.title} className="flex flex-col">
+              <div key={item.title} className="flex flex-col transform transition-all duration-300 ease-in-out hover:scale-105">
                 <span className="sm:text-4xl text-2xl font-bold font-integral">
                   {item.count}
                 </span>
@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="relative flex justify-end items-center w-[280px] h-[300px] sm:w-[500px] md:w-[550px] sm:h-[440px]">
+        <div className="relative flex justify-end items-center w-[280px] h-[300px] sm:w-[500px] md:w-[550px] sm:h-[440px] transform transition-all duration-300 ease-in-out hover:scale-105">
           <Image
             src="/images/HeroBanner.png"
             alt="Hero Banner"
@@ -53,7 +53,7 @@ const Hero = () => {
               <p className="text-sm sm:text-lg">Arkhan17</p>
             </div>
           </div>
-          <div className="absolute bottom-7 left-1/2 transform -translate-x-1/2 sm:w-8/12 text-white backdrop-blur-xl bg-white bg-opacity-20 rounded-xl p-5 flex flex-col sm:flex-row justify-between space-y-2 sm:space-y-0">
+          <div className="absolute bottom-7 left-1/2 transform -translate-x-1/2 sm:w-8/12 text-white backdrop-blur-xl bg-white bg-opacity-20 rounded-xl p-5 flex flex-col sm:flex-row justify-between space-y-2 sm:space-y-0 transition-all duration-300 ease-in-out hover:scale-105">
           <div className="sm:space-y-2">
               <h1 className="text-sm font-medium font-dmsans">Current Bid</h1>
               <div className="flex items-center space-x-2">

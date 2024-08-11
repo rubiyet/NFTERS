@@ -8,7 +8,7 @@ const Card = ({ src, title, description }) => {
         alt={title}
         width={50}
         height={50}
-        className="object-contain"
+        className="object-contain transform transition-all duration-300 ease-in-out hover:scale-105"
       />
       <div className="space-y-3 font-dmsans">
         <h3 className="text-xl font-bold">{title}</h3>

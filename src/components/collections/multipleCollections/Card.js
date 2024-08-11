@@ -9,7 +9,7 @@ const Card = ({ image, desc, author, highestBid }) => {
         alt={`Image of ${author.name}'s collection`}
         width={147}
         height={147}
-        className="object-cover rounded-lg 2xl:w-36 w-28 lg:w-32 h-full"
+        className="object-cover rounded-lg 2xl:w-36 w-28 lg:w-32 h-full transform transition-all duration-300 ease-in-out hover:scale-105"
       />
       <div className="flex flex-col space-y-2">
         <div className="text-xl font-bold font-dmsans">{author.name}</div>

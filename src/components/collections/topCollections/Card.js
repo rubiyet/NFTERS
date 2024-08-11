@@ -4,7 +4,7 @@ const Card = ({ id, image, name, value, valueAlert, change, isPositive }) => {
   return (
     <div className="flex gap-5 items-center w-full">
       <div className="text-2xl font-bold font-dmsans">{id}</div>
-      <div className="relative w-10 lg:w-16 xl:w-20">
+      <div className="relative w-10 lg:w-16 xl:w-20 transform transition-all duration-300 ease-in-out hover:scale-105">
         {valueAlert && (
           <Image
             src="/icons/Positive.svg"

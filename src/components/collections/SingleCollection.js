@@ -7,7 +7,7 @@ const SingleCollection = ({ image, title, author, highestBid }) => {
         <Image
           src={image}
           alt={title}
-          className="object-cover w-full rounded-3xl"
+          className="object-cover w-full rounded-3xl transform transition-all duration-300 ease-in-out hover:scale-105"
           width={1000}
           height={1000}
         />
