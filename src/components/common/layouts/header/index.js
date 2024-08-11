@@ -11,7 +11,7 @@ const Header = () => {
           <div className="text-2xl font-bold text-[#3D00B7] leading-none font-integral">
             NFTERS
           </div>
-          <div className="border border-[#F4F4F4] h-[47px]" />
+          <div className="border border-[#F4F4F4] h-[47px] sm:block hidden" />
           <nav className="sm:block space-x-8 hidden">
           {NAV_MENU_ITEMS.map(({ label, href }) => (
             <Link key={label} href={

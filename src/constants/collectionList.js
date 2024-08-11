@@ -103,3 +103,49 @@ export const TOP_COLLECTIONS = [
     isPositive: false,
   },
 ];
+
+export const FEATURED_COLLECTIONS = [
+  {
+    mainImage: "/images/collections/1.png",
+    sideImages: [
+      "/images/collections/2.png",
+      "/images/collections/3.png",
+      "/images/collections/4.png",
+    ],
+    title: "Amazing Collection",
+    author: {
+      avatar: "/images/Avatar.png",
+      name: "Arkhan",
+    },
+    totalItems: 54,
+  },
+  {
+    mainImage: "/images/collections/1.png",
+    sideImages: [
+      "/images/collections/2.png",
+      "/images/collections/3.png",
+      "/images/collections/4.png",
+    ],
+    title: "Amazing Collection",
+    author: {
+      avatar: "/images/Avatar.png",
+      name: "Arkhan",
+    },
+    totalItems: 54,
+  },
+  {
+    mainImage: "/images/collections/1.png",
+    sideImages: [
+      "/images/collections/2.png",
+      "/images/collections/3.png",
+      "/images/collections/4.png",
+    ],
+    title: "Amazing Collection",
+    author: {
+      avatar: "/images/Avatar.png",
+      name: "Arkhan",
+    },
+    totalItems: 54,
+  },
+];
+

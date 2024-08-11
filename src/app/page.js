@@ -1,6 +1,7 @@
 import Features from "@/components/features";
 import Hero from "@/components/Hero";
 import Collection from "@/components/collections";
+import FeaturedCollections from "@/components/featuredCollections";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Features />
       <Collection />
+      <FeaturedCollections />
     </>
   );
 };
