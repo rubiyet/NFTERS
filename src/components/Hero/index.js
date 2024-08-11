@@ -4,8 +4,8 @@ import { STATS_LIST } from "@/constants/heroStarsList";
 
 const Hero = () => {
   return (
-    <div className="mt-[57px] mb-[122px] w-8/12 mx-auto">
-      <div className="flex flex-col-reverse md:flex-row md:justify-between">
+    <div className="mt-[57px] mb-[122px] w-9/12 lg:w-11/12 xl:w-10/12 2xl:w-9/12 mx-auto">
+      <div className="flex flex-col space-y-16 lg:space-y-0 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-end space-y-[30px]">
           <div className="space-y-[41px] max-w-xl w-full">
             <h1 className="text-4xl font-bold tracking-wide font-integral">
@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="flex space-x-8 text-center md:text-left">
             {STATS_LIST.map((item) => (
               <div key={item.title} className="flex flex-col">
-                <span className="text-4xl font-bold font-integral">
+                <span className="sm:text-4xl text-2xl font-bold font-integral">
                   {item.count}
                 </span>
                 <span className="text-xl text-black font-dmsans">
@@ -31,15 +31,15 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="relative flex justify-end items-center md:items-start">
+        <div className="relative flex justify-end items-center w-[280px] h-[300px] sm:w-[500px] md:w-[550px] sm:h-[440px]">
           <Image
             src="/images/HeroBanner.png"
             alt="Hero Banner"
-            width={500}
+            width={550}
             height={440}
-            className="object-cover w-full h-full"
+            className="w-full h-full"
           />
-          <div className="absolute top-6 left-4 md:left-20 w-full space-y-2 text-white">
+          <div className="absolute top-6 left-1/2 transform -translate-x-1/2 w-8/12 space-y-2 text-white">
             <h1 className="text-lg md:text-2xl font-bold font-dmsans">
               Abstr Gradient NFT
             </h1>
@@ -53,8 +53,8 @@ const Hero = () => {
               <p className="text-lg">Arkhan17</p>
             </div>
           </div>
-          <div className="absolute bottom-7 left-4 md:left-20 w-[350px] text-white backdrop-blur-xl bg-white bg-opacity-20 rounded-xl p-5 flex justify-between">
-            <div className="space-y-2">
+          <div className="absolute bottom-7 left-1/2 transform -translate-x-1/2 w-8/12 text-white backdrop-blur-xl bg-white bg-opacity-20 rounded-xl p-5 flex justify-between">
+          <div className="space-y-2">
               <h1 className="text-sm font-medium font-dmsans">Current Bid</h1>
               <div className="flex items-center space-x-2">
                 <Image

@@ -4,7 +4,7 @@ const Card = ({ id, image, name, value, valueAlert, change, isPositive }) => {
   return (
     <div className="flex gap-5 items-center w-full">
       <div className="text-2xl font-bold font-dmsans">{id}</div>
-      <div className="relative">
+      <div className="relative w-10 lg:w-16 xl:w-20">
         {valueAlert && (
           <Image
             src="/icons/Positive.svg"

@@ -11,7 +11,7 @@ const SingleCollection = ({ image, title, author, highestBid }) => {
           width={1000}
           height={1000}
         />
-        <div className="flex justify-between">
+        <div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row justify-between space-y-2">
           <div className="flex items-start gap-2.5">
             <Image
               src={author.avatar}
@@ -25,7 +25,7 @@ const SingleCollection = ({ image, title, author, highestBid }) => {
               <div className="text-sm text-[#363639] font-dmsans">{author.desc}</div>
             </div>
           </div>
-          <div className="flex flex-col text-[#3A3A3A] justify-between">
+          <div className="flex flex-col text-[#3A3A3A] justify-between pl-14 xl:pl-0">
             <div className="text-xs font-medium font-dmsans">Highest Bid</div>
             <div className="flex items-center gap-2.5 text-base font-bold">
               <Image

@@ -1,10 +1,10 @@
-import MultipleCollectionCard from "@/components/collections/multipleCollections/Card";
+import Card from "@/components/collections/multipleCollections/Card";
 
 const Index = ({ multipleCollectionList }) => {
   return (
-    <div className="flex flex-col justify-between col-span-3">
+    <div className="grid grid-flow-row gap-8 col-span-6 md:border-r-2">
       {multipleCollectionList.map((collection, index) => (
-        <MultipleCollectionCard key={index} {...collection} />
+        <Card key={index} {...collection} />
       ))}
     </div>
   );

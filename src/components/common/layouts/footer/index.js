@@ -4,8 +4,8 @@ import NewsletterSignup from "@/components/common/layouts/footer/NewsletterSignu
 
 const Footer = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-8">
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
+    <div className="w-9/12 lg:w-11/12 xl:w-10/12 2xl:w-9/12 mx-auto px-4 py-8">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-12 gap-8">
         <div className="col-span-1 md:col-span-4 space-y-6">
           <h2 className="text-2xl font-bold font-integral">NFters</h2>
           <p className="text-sm text-[#565656] font-dmsans">
