@@ -1,4 +1,4 @@
-import Features from "@/components/features";
+import Features from "@/components/featuress";
 import Hero from "@/components/Hero";
 import Collection from "@/components/collections";
 
