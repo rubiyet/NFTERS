@@ -40,7 +40,7 @@ const Hero = () => {
             className="w-full h-full"
           />
           <div className="absolute top-6 left-1/2 transform -translate-x-1/2 w-8/12 space-y-2 text-white">
-            <h1 className="text-lg md:text-2xl font-bold font-dmsans">
+            <h1 className="text-sm sm:text-lg md:text-2xl font-bold font-dmsans">
               Abstr Gradient NFT
             </h1>
             <div className="flex items-center space-x-3">
@@ -50,11 +50,11 @@ const Hero = () => {
                 width={32}
                 height={32}
               />
-              <p className="text-lg">Arkhan17</p>
+              <p className="text-sm sm:text-lg">Arkhan17</p>
             </div>
           </div>
-          <div className="absolute bottom-7 left-1/2 transform -translate-x-1/2 w-8/12 text-white backdrop-blur-xl bg-white bg-opacity-20 rounded-xl p-5 flex justify-between">
-          <div className="space-y-2">
+          <div className="absolute bottom-7 left-1/2 transform -translate-x-1/2 sm:w-8/12 text-white backdrop-blur-xl bg-white bg-opacity-20 rounded-xl p-5 flex flex-col sm:flex-row justify-between space-y-2 sm:space-y-0">
+          <div className="sm:space-y-2">
               <h1 className="text-sm font-medium font-dmsans">Current Bid</h1>
               <div className="flex items-center space-x-2">
                 <Image
@@ -63,11 +63,11 @@ const Hero = () => {
                   width={12}
                   height={12}
                 />
-                <p className="font-dmsans font-bold">0.25 ETH</p>
+                <p className="font-dmsans font-bold text-xs sm:text-base">0.25 ETH</p>
               </div>
             </div>
-            <div className="space-y-2">
-              <h1 className="text-sm font-medium font-dmsans">Ends in</h1>
+            <div className="sm:space-y-2">
+            <h1 className="text-sm font-medium font-dmsans">Ends in</h1>
               <div className="flex items-center space-x-2">
                 <Image
                   src="/icons/Bit.svg"
@@ -75,7 +75,7 @@ const Hero = () => {
                   width={12}
                   height={12}
                 />
-                <p className="font-dmsans font-bold">12h 43m 42s</p>
+                <p className="font-dmsans font-bold text-xs sm:text-base">12h 43m 42s</p>
               </div>
             </div>
           </div>
